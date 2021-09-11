@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+  }
+  head {
+    display: none;
+    position: relative;
+    min-height: 100%;
+  }
+  html {
+    height: 100%;
+  }
+  .menu a:hover {
+    text-decoration: none;
+    background-color: #fcc602;
+    color:#5F3473 ;
+  }
+  .header a {
+    color: #fcc602;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .home {
+    font-size: 20px;
+    float: left;
+    margin-left: 30px;
+    max-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  }
+  .home:hover{
+    text-decoration: none;
+    background-color: #fcc602;
+    color:#5F3473 ;
+  }
+  
+  .menu {
+    margin-left: 70%;
+  }
+  .header {
+    background: rgba(120, 77, 152);
+    color: rgba(120, 77, 152);
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: auto;
+    clear: both;
+  }
+  .menu1 {
+    background: rgba(120, 77, 152);
+    top: 40px;
+    left: 50%;
+  }
+  .titlePage {
+    font-family: Fantasy;
+    background-color: #d7c7dd;
+    color: rgba(120, 77, 152);
+    padding: 3px;
+    text-align: center;
+  }
+  .divTable {
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .boxPage p {
+    margin-top: 20px;
+  }
+  .text-center .img-responsive {
+    margin: 0 auto;
+  }
+  
+  
+  #menuToggle {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  
+  
